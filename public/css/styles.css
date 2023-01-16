@@ -33,15 +33,23 @@ body{
     margin-right: 5px;
 }
 .slova{
-    font-size: 20px;
+    font-size: 35px;
     color: #929693;
 }
 .naslov{
     color: #ffde59;
+    font-size: 65px;
 }
 .dugme{
     background-color: #ffde59;
 }
 .logo-sam{
     padding-left: 50px;
+}
+.dugme:hover{
+    background-color: black;
+    color: #ffde59;
+}
+.typing{
+    color: #ffde59;
 }
