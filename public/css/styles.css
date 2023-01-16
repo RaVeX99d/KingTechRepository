@@ -32,3 +32,13 @@ body{
 .nav-link{
     margin-right: 5px;
 }
+.slova{
+    font-size: 20px;
+    color: #929693;
+}
+.naslov{
+    color: #ffde59;
+}
+.dugme{
+    background-color: #ffde59;
+}
