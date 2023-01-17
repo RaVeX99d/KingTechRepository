@@ -23,6 +23,7 @@ body{
          0 0 92px #ffde59,    
           0 0 102px #ffde59,   
             0 0 151px #ffde59;;
+            transition: 0.7s;
 }
 .navbar-brand{
     color: #ffde59;
@@ -56,6 +57,8 @@ body{
 }
 .o-nama{
     color: black;
+    text-align: center;
+    border-color: black;
 }
 .podnaslov{
     color: black;
@@ -69,7 +72,86 @@ body{
 .mini-tekst{
     color: #929693;
 }
-.card-body:hover{
-    margin-bottom: 20px;
-
+.drugo-dugme{
+    color: #fff;
+    background-color: black;
 }
+.drugo-dugme:hover{
+    color: #ffde59;
+    background-color: black;
+}
+.card:hover{
+    color: #ffde59;
+    transition: 0.7s;
+}
+.boja-teksta{
+    color: #ffde59;
+    text-align: center;
+}
+.skilovi-bar{
+    color: #ffde59;
+}
+.progress-bar{
+    color: black;
+}
+.experience-our{
+    color: #fff;
+}
+.opis-exp{
+    color: #fff;
+}
+.Team{
+    background-color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.granica{
+    padding-top: 50px;
+}
+.mail-icon{
+    color: #ffde59;
+    padding-top: 50px;
+}
+.stil-mail{
+    color: #ffde59;
+    margin-left: 20px;
+    text-decoration: none;
+}
+footer{
+    color: #ffde59;
+    
+}
+footer{
+    background: #252525;
+    padding: 15px 23px;
+    color: #ffde59;
+    text-align: center;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+ 
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #ffde59;
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffc107;
+  }
+  
