@@ -53,3 +53,27 @@ body{
 .typing{
     color: #ffde59;
 }
+.o-nama{
+    color: #ffde59;
+}
+.podnaslov{
+    color: #ffde59;
+}
+.pod-opis{
+    color: #929693;
+}
+.mini-opis{
+    color: #929693;
+}
+.mini-opis:hover{
+    color: black;
+}
+.border-neki{
+    border: dashed #ffde59;
+    padding: 10px;
+    background-color: black;
+}
+.border-neki:hover{
+    
+    background-color: #929693;
+}
