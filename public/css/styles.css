@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Bangers', cursive;
+    background-attachment: fixed;
 }
 .navbar-nav{
     position: absolute;
@@ -54,26 +55,21 @@ body{
     color: #ffde59;
 }
 .o-nama{
-    color: #ffde59;
+    color: black;
 }
 .podnaslov{
-    color: #ffde59;
+    color: black;
 }
 .pod-opis{
     color: #929693;
 }
-.mini-opis{
+.About{
+    background-color: #fff;
+}
+.mini-tekst{
     color: #929693;
 }
-.mini-opis:hover{
-    color: black;
-}
-.border-neki{
-    border: dashed #ffde59;
-    padding: 10px;
-    background-color: black;
-}
-.border-neki:hover{
-    
-    background-color: #929693;
+.card-body:hover{
+    margin-bottom: 20px;
+
 }
