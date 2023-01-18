@@ -183,27 +183,30 @@
       </div>
       </div>
       <div class="col-md-10 mx-auto col-lg-5">
-        <form class="p-4 p-md-5 bg-light bg-transparent">
+        <form action="https://formsubmit.co/meho.mehinjo@gmail.com" class="p-4 p-md-5 bg-light bg-transparent" method="POST">
           <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" required>
             <label for="floatingInput">Name</label>
           </div>
+          <input type="hidden" name="_subject" value="New submission!">
+          <input type="hidden" name="_template" value="box">
+          <input type="hidden" name="_subject" value="New submission!">
           <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingPassword" placeholder="Password">
+            <input type="email" name="email" class="form-control" id="floatingPassword" placeholder="Password" required>
             <label for="floatingPassword">Email Adress</label>
           </div>
           <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+            <input type="text" class="form-control" id="floatingPassword" placeholder="Password" required>
             <label for="floatingPassword">Subject</label>
           </div>
           <div class="form-floating mb-3">
-            <textarea  class="form-control"name="" id="" cols="30" rows="10" placeholder="message..."></textarea>
+            <textarea class="form-control" name="message" id="" cols="30" rows="10" placeholder="message..." required></textarea>
             <label for="floatingPassword">Message</label>
           </div>
           <div class="checkbox mb-3">
             
           </div>
-          <button type="button" class=" dugme btn btn-warning btn-lg px-4 me-md-2">Send Message</button>
+          <button type="submit" class=" dugme btn btn-warning btn-lg px-4 me-md-2">Send Message</button>
           <hr class="my-4">
           
         </form>
